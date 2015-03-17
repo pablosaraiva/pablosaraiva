@@ -1,0 +1,12 @@
+name: pablosaraiva
+version: 0.0.1
+description: pablosaraiva.com
+environment:
+  sdk: any
+dependencies:
+  browser: any
+  polymer: any
+transformers:
+- polymer:
+    entry_points: web/index.html
+    lint: false   

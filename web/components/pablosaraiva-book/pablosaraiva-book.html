@@ -1,0 +1,42 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="pablosaraiva-book" attributes="titulo autor fim capa">
+
+  <template>
+    <style>
+      :host #content {
+        background-color: #55616C;
+        color: #D2C4B0;
+        width: 800px;
+        padding: 20px;
+        margin: 20px;
+        border-style: dashed;
+        border-width: 2px;
+        border-color: #222B33;
+      }
+      
+      img {
+        width: 150px;
+        height: 225px;
+      }
+      
+      #right {
+        margin-left: 20px;
+      }
+    </style>
+    <div id="content" layout horizontal>
+      <div id="left">
+        <img alt="Capa do Livro {{titulo}}" _src="../../img/books/{{capa}}">
+      </div>
+      <div id="right" layout vertical>
+       <h3>{{titulo}}</h3>
+       <span>Autor: {{autor}}</span>
+       <span>Finalizado em: {{fim}}</span>
+      </div>
+    </div>
+  </template>
+  
+  <script type="application/dart" src="pablosaraiva-book.dart"></script>
+</polymer-element>
+  
+  

@@ -1,0 +1,21 @@
+{
+  "name": "pablosaraiva",
+  "version": "0.0.1",
+  "authors": [
+    "Pablo Saraiva <pablosaraiva@gmail.com>"
+  ],
+  "description": "Pablo Saraiva",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-toolbar": "Polymer/core-toolbar#~0.5.5",
+    "polymer": "Polymer/polymer#~0.5.5",
+    "core-ajax": "Polymer/core-ajax#~0.5.5"
+  }
+}

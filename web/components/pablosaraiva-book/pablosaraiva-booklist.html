@@ -1,0 +1,27 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="./pablosaraiva-book.html">
+<link rel="import" href="../pablosaraiva-bookservice/pablosaraiva-bookservice.html">
+
+<polymer-element name="pablosaraiva-booklist" noscript>
+
+  <template>
+    <style>
+      :host h2 {
+        margin-left: 20px;
+      }
+    </style>
+    <pablosaraiva-bookservice id="service" books="{{books}}"></pablosaraiva-bookservice>  
+
+    <h2>Livros Lidos</h2>  
+    <template repeat="{{book in books}}">
+    
+      <style>
+      </style>
+      <pablosaraiva-book titulo="{{book.titulo}}" fim="{{book.fim}}" autor="{{book.autor}}" capa="{{book.capa}}"></pablosaraiva-book>
+    </template>
+  </template>
+
+    
+</polymer-element>
+  
+  

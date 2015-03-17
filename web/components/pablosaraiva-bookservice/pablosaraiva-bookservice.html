@@ -1,0 +1,20 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/core-ajax/core-ajax.html">
+<polymer-element name="pablosaraiva-bookservice" attributes="books">
+  <template>
+    <style>
+    </style>
+    
+    <core-ajax id="ajax" auto url="../../data/books.json" on-core-response="{{booksLoaded}}" handleAs="json"></core-ajax>
+  </template>
+  <script>
+    Polymer('pablosaraiva-bookservice', {
+      created: function() {
+        this.books = [];
+      },
+      booksLoaded: function() {
+        this.books = this.$.ajax.response.slice(0);
+      }
+    });
+  </script>
+</polymer-element>

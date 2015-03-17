@@ -1,0 +1,179 @@
+[
+  {
+    "titulo": "Hackers & Painters",
+    "autor":"Paul Graham",
+    "fim": "01/2015",
+    "capa":"hackersPainters.jpg"
+  }
+  ,
+  {
+    "titulo": "How to Stop Sucking and Be Awesome Instead",
+    "autor":"Jeff Atwood",
+    "fim": "02/2015",
+    "capa":"htstopsuckingabai.jpg"
+  }
+  ,
+  {
+    "titulo": "So Good They Can't Ignore You",
+    "autor":"Cal Newport",
+    "fim": "03/2014",
+    "capa":"sogoodtheycantignoreyou.jpg"
+  }
+  ,
+  {
+    "titulo": "Inferno",
+    "autor":"Dan Brown",
+    "fim": "03/2014",
+    "capa":"inferno.jpg"
+  }
+  ,
+  {
+    "titulo": "Team Geek: A Software Developer's Guide to Working Well with Others",
+    "autor":"Brian W. Fitzpatrick e Ben Collins-Sussman",
+    "fim": "02/2014",
+    "capa":"teamgeek.jpg"
+  }
+  ,
+  {
+    "titulo": "Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman",
+    "autor":"Dave Hoover e Adewale Oshineye",
+    "fim": "02/2014",
+    "capa":"apprenticeshippatterns.jpg"
+  }    
+  ,
+  {
+    "titulo": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "autor":"Robert C. Martin",
+    "fim": "2013",
+    "capa":"cleancode.jpg"
+  }  
+  ,
+  {
+    "titulo": "The Clean Coder: A Code of Conduct for Professional Programmers",
+    "autor":"Robert C. Martin",
+    "fim": "2013",
+    "capa":"thecleancoder.jpg"
+  }
+  ,
+  {
+    "titulo": "Growing Object-Oriented Software, Guided by Test",
+    "autor":"Steve Freeman e Nat Pryce",
+    "fim": "2013",
+    "capa":"growingoos.jpg"
+  }
+  ,
+  {
+    "titulo": "Patterns of Enterprise Application Architecture",
+    "autor":"Martin Fowler",
+    "fim": "2013",
+    "capa":"patternsenterprise.jpg"
+  }
+  ,
+  {
+    "titulo": "Coders at Work: Reflections on the Craft of Programming",
+    "autor":"Peter Seibel",
+    "fim": "2012",
+    "capa":"codersatwork.jpg"
+  }  
+  ,
+  {
+    "titulo": "Zen To Done: The Ultimate Simple Productivity System",
+    "autor":"Leo Babauta",
+    "fim": "2012",
+    "capa":"zentodone.jpg"
+  }
+  ,
+  {
+    "titulo": "Foundations of IT Service Management with ITIL 2011",
+    "autor":"Brady Orand e Julie Villarreal",
+    "fim": "2012",
+    "capa":"itilfoundations.jpg"
+  }
+  ,
+  {
+    "titulo": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "autor":"Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "fim": "2007",
+    "capa":"designpatternsgof.jpg"
+  }
+  ,
+  {
+    "titulo": "O Espadachim de Carvão",
+    "autor":"Affonso Solano",
+    "fim": "2014",
+    "capa":"oespadachimdecarvao.jpg"
+  }
+  ,
+  {
+    "titulo": "How To Win Friends and Influence People",
+    "autor":"Dale Carnegie",
+    "fim": "2013",
+    "capa":"howtowinfriends.jpg"
+  }
+  ,
+  {
+    "titulo": "Ponto de impacto",
+    "autor":"Dan Brown",
+    "capa":"pontodeimpacto.jpg"
+  }
+  ,
+  {
+    "titulo": "Anjos e demônios",
+    "autor":"Dan Brown",
+    "capa":"anjosedemonios.jpg"
+  }
+  ,
+  {
+    "titulo": "O Código Da Vinci",
+    "autor":"Dan Brown",
+    "capa":"ocodigodavinci.jpg"
+  }
+  ,
+  {
+    "titulo": "A Guerra dos Tronos - As Crônicas de Gelo e Fogo (livro 1)",
+    "autor":"George R.R. Martin ",
+    "capa":"aguerradostronos1.jpg"
+  }
+  ,
+  {
+    "titulo": "A Fúria dos Reis - As Crônicas de Gelo e Fogo (livro 2)",
+    "autor":"George R.R. Martin ",
+    "capa":"aguerradostronos2.jpg"
+  }
+  ,
+  {
+    "titulo": "A Tormenta de Espadas - As Crônicas de Gelo e Fogo (livro 3)",
+    "autor":"George R.R. Martin ",
+    "capa":"aguerradostronos3.jpg"
+  }
+  ,
+  {
+    "titulo": "Civil Disobedience",
+    "autor":"Henry David Thoreau",
+    "capa":"civildisobedience.jpg"
+  }
+  ,
+  {
+    "titulo": "A Batalha do Apocalipse",
+    "autor":"Eduardo Spohr",
+    "capa":"abatalhadoapocalipse.jpg"
+  }
+  ,
+  {
+    "titulo": "Filhos do Éden: Herdeiros de Atlântida",
+    "autor":"Eduardo Spohr",
+    "capa":"filhosdoeden1.jpg"
+  }
+  ,
+  {
+    "titulo": "T. zombii - Gravação dos Mortos",
+    "autor":"Abu Fobiya, Alexandre Ottoni e Deive Pazos",
+    "capa":"tzombii.jpg"
+  }
+  ,
+  {
+    "titulo": "Branca dos mortos e os sete zumbis e outros contos macabros",
+    "autor":"Abu Fobiya",
+    "capa":"brancadosmortos.jpg"
+  }
+]
