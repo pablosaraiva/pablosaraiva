@@ -8,7 +8,14 @@
     <title>Pablo Saraiva</title>
     <link rel="import" href="./bower_components/core-toolbar/core-toolbar.html">
     <link rel="import" href="./bower_components/core-icon-button/core-icon-button.html">
+    <link rel="import" href="./bower_components/core-scaffold/core-scaffold.html">
+    <link rel="import" href="./bower_components/core-header-panel/core-header-panel.html">
+    <link rel="import" href="./bower_components/core-menu/core-menu.html">
+    <link rel="import" href="./bower_components/core-item/core-item.html">
+    <link rel="import" href="./bower_components/core-icons/social-icons.html">
+    
     <link rel="import" href="./components/pablosaraiva-book/pablosaraiva-booklist.html">
+    
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -20,15 +27,15 @@
   </div>
   
   <div id="content" layout vertical unresolved hidden>
-    <core-toolbar>
-      <core-icon-button icon="menu"></core-icon-button>
-      <div flex>Pablo Saraiva</div>
-    </core-toolbar>
-    
-    <div flex id="content">
-    
-      <pablosaraiva-booklist></pablosaraiva-booklist>
-    </div>
+       <core-toolbar class="headerlike" >pablosaraiva.com</core-toolbar>
+       <core-menu selected="0" layout horizontal on-core-select="{{selectAction}}">
+         <core-item icon="book" label="Livros"></core-item>
+         <core-item icon="work" label="Projetos"></core-item>
+         <core-item icon="social:person" label="Sobre"></core-item>
+       </core-menu>
+      <div flex id="content">
+        <pablosaraiva-booklist></pablosaraiva-booklist>
+      </div>
   </div>
   <script src="./packages/browser/dart.js"></script>
   <script type="application/dart" src="main.dart"></script>

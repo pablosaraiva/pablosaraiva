@@ -1,16 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-
 core-toolbar {
   background-color: #747E88;
   color: #162531;
 }
+
+core-item {
+  color: #A79780;
+  padding-right: 50px;
+}
+
+core-item.core-selected {
+  color: #D2C4B0;
+}
+
 
 html, body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     background-color: #3D4852;
     color: #D2C4B0;
 }
