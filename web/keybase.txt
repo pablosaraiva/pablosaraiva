@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/pablosaraiva
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://pablosaraiva.com
+  * I am pablosaraiva (https://keybase.io/pablosaraiva) on keybase.
+  * I have a public key with fingerprint 1D09 5825 478D 45B2 F6F2  111F 73F4 A231 6A4D 7D13
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "1d095825478d45b2f6f2111f73f4a2316a4d7d13",
+            "host": "keybase.io",
+            "key_id": "73f4a2316a4d7d13",
+            "kid": "0101a9cdca764dbf3c4af021d21a27b073833f0870904ee432f7585e3f2a1d2fa6c90a",
+            "uid": "925f88b5320585b9bd766b7337bceb19",
+            "username": "pablosaraiva"
+        },
+        "service": {
+            "hostname": "pablosaraiva.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1428462336,
+    "expire_in": 157680000,
+    "prev": "4e852db4afba3484c003025ecfe46d542961808db9ebce8777706c8498f94283",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIZAnicbZJdSBRRFMd3tcSvsMAXIYkGLSrTuXPn486mEoj0RZCIEGRu987c0dHc
+WWdmN0OMohK0eogewnIxoSiWrDSKNBL7QqQ0YcGH0KIiUvahWhKEoLoj9dZ9udxz
+fud/7vlzXqxJ92X7r12q7Lsaj572v3q6O+KrK7rq6+CIpR/nAh1cC125DDPUSO2w
+bYZcLsABnVclJEiignRRIoIhGwIAwFCgIWIBAhmLuqIDyJVwTZbjVTAZgh1aalos
+xh5BU2fR//AtKwke8ACrmq5hRRZ1YkBNxAYvAF0AWFAIr0AEocEjhVd5kVIRCoYi
+IYlCQ8AMMrCsqTxmcpEVOVWQDISIBAWeUUQluiLLRIFQIRolQPVAh9oh3EoZHcbk
+qOVgG5tRzHWWcCwTNTXq2eBN8x+qVLNamUbYtlxLs46ybJPrhgNesXs87NHHKAn+
+1QkSM6QzO1lBlNqOaYW4AGCk5pqeMBAFJMoChHIJR9vDpk2DpkdIiox4drw2NMok
+RYokQSfMGIKhiESN5yEvSFQzqCjrkiioMkA80olK2ZRIYYeXNSSqyFBZD89sh7aF
+LC6gsm/iRibpmI0h7EZsynU+G69f5fNn+zJWp3kL4cvOWvtvTfbczvRdygf7/Wen
+0xv2PspPZJ1cThplZRXTOSP9sWvSl4BTe6U4Xjea2at1T8QSF03n02xv1vO7C8Wr
+araXzaXQ5EQXXFqMuLvrE/2fk33tiXf7eqqstOHCjbm7Smp2/krmLy0cctpq3eUN
+i6nuvDVvb+UsHntzIW0qgwzlvj9iHJgZI4dfbz5hFk2Of6v8XQgafkTPN5Q3Vc41
+tw3O+B7Wb4tEztwfTLXGAmkLuDo/49yOvoHHXwe67/WeKhgZS32H8+e3PPyZl7xc
+vml9v7u1Ku/Oy8RhO6f6A+6pSnyMr4tNddXEV1sPZttHG/bcaL4Zmh5+Yh+cqCgG
+gMx/LBi6/gegoykl
+=VGfH
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pablosaraiva
+
+==================================================================
+
