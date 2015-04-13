@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pablo Saraiva</title>
+    
     <link rel="import" href="./bower_components/core-toolbar/core-toolbar.html">
     <link rel="import" href="./bower_components/core-icon-button/core-icon-button.html">
-    <link rel="import" href="./bower_components/core-scaffold/core-scaffold.html">
-    <link rel="import" href="./bower_components/core-header-panel/core-header-panel.html">
+    <link rel="import" href="./bower_components/core-icons/social-icons.html">
     <link rel="import" href="./bower_components/core-menu/core-menu.html">
     <link rel="import" href="./bower_components/core-item/core-item.html">
-    <link rel="import" href="./bower_components/core-icons/social-icons.html">
     
     <link rel="import" href="./components/pablosaraiva-book/pablosaraiva-booklist.html">
     
@@ -27,7 +26,10 @@
   </div>
   
   <div id="content" layout vertical unresolved hidden>
-       <core-toolbar class="headerlike" >pablosaraiva.com</core-toolbar>
+       <core-toolbar class="headerlike">
+         <span> </span>
+         pablosaraiva.com
+       </core-toolbar>
        <core-menu selected="0" layout horizontal on-core-select="{{selectAction}}">
          <core-item icon="book" label="Livros"></core-item>
          <core-item icon="work" label="Projetos"></core-item>
