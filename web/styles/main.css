@@ -35,5 +35,9 @@ h2 {
   text-align: center;
 }
 
+core-drawer-panel:not([narrow]) #navicon {
+  display: none;
+}
+
 
 //http://paletton.com/#uid=23z0u0k90f+55qj7mkVbt9ViX9-

@@ -2,10 +2,11 @@ name: pablosaraiva
 version: 0.0.1
 description: pablosaraiva.com
 environment:
-  sdk: any
+  sdk: 1.8.5
 dependencies:
-  browser: any
-  polymer: any
+  browser: 0.10.0+2
+  polymer: 0.15.5+3
+  core_elements: 0.6.0+5
 transformers:
 - polymer:
     entry_points: web/index.html
