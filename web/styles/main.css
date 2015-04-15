@@ -39,5 +39,9 @@ core-drawer-panel:not([narrow]) #navicon {
   display: none;
 }
 
+[drawer] {
+  background-color: #3D4852;
+}
+
 
 //http://paletton.com/#uid=23z0u0k90f+55qj7mkVbt9ViX9-

@@ -1,18 +1,19 @@
+import 'dart:js' show JsObject;
 import 'dart:html';
 import 'package:polymer/polymer.dart';
 import 'package:core_elements/core_drawer_panel.dart';
+ 
 
-
-void abreMenu() {
-  CoreDrawerPanel e = querySelector('#drawerPanel') as CoreDrawerPanel;
-  e.togglePanel();
-}
 
 void main() {
-  
   initPolymer().run(() {
     Polymer.onReady.then((_) {
-      querySelector('#navicon').onClick.listen((event) => abreMenu());
+      void clicaMenu() {
+        _js(x) => new JsObject.fromBrowserObject(x);
+        _js(querySelector('#content')).callMethod('togglePanel');        
+      }
+      
+      querySelector('#navicon').onClick.listen((event) => clicaMenu());
     });
   });
   
