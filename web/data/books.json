@@ -1,9 +1,23 @@
 [
   {
-    "titulo": "Hackers & Painters",
-    "autor":"Paul Graham",
-    "fim": "01/2015",
-    "capa":"hackersPainters.jpg"
+    "titulo": "Learning Neo4j",
+    "autor":"Rik Van Bruggen",
+    "fim": "04/2015",
+    "capa":"learningneo4j.jpg"
+  }
+  ,
+  {
+    "titulo": "Graph Databases",
+    "autor":"Ian Robinson, Jim Webber & Emil Eifrem",
+    "fim": "04/2015",
+    "capa":"graphdatabases.jpg"
+  }
+  ,
+  {
+    "titulo": "Effective Programming: More Than Writing Code",
+    "autor":"Jeff Atwood",
+    "fim": "03/2015",
+    "capa":"morethanwritingcode.jpg"
   }
   ,
   {
@@ -11,6 +25,13 @@
     "autor":"Jeff Atwood",
     "fim": "02/2015",
     "capa":"htstopsuckingabai.jpg"
+  }
+  ,
+  {
+    "titulo": "Hackers & Painters",
+    "autor":"Paul Graham",
+    "fim": "01/2015",
+    "capa":"hackersPainters.jpg"
   }
   ,
   {

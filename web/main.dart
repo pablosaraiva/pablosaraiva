@@ -1,24 +1,26 @@
 import 'dart:js' show JsObject;
 import 'dart:html';
 import 'package:polymer/polymer.dart';
-import 'package:core_elements/core_drawer_panel.dart';
+import './components/pablosaraiva-menubinding/pablosaraiva-menubinding.dart';
  
-
-
 void main() {
   initPolymer().run(() {
     Polymer.onReady.then((_) {
+      
       void clicaMenu() {
         _js(x) => new JsObject.fromBrowserObject(x);
-        _js(querySelector('#content')).callMethod('togglePanel');        
+        _js(querySelector('#content')).callMethod('togglePanel');
+        
       }
       
-      querySelector('#navicon').onClick.listen((event) => clicaMenu());
+      var template = querySelector("#app") as AutoBindingElement;
+      var model = template.model = new PabloSaraivaMenuBinding(); 
+      
     });
   });
   
   querySelector('#splash').hidden = true;
-  querySelector('#content').hidden = false;
+  querySelector('#app').hidden = false;
   
 }
 
