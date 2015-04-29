@@ -12,12 +12,12 @@ class PablosaraivaApp extends PolymerElement {
   @override
   void ready() {
     super.ready();
-    shadowRoot.querySelector('#panel').onClick.listen((e) => clicaMenu()); 
+//    shadowRoot.querySelector('#panel').onClick.listen((e) => clicaMenu()); 
   }
   
-  void clicaMenu() {
-    _js(x) => new JsObject.fromBrowserObject(x);
-    _js(querySelector('#panel')).callMethod('togglePanel');
-  }
+//  void clicaMenu() {
+//    _js(x) => new JsObject.fromBrowserObject(x);
+//    _js(querySelector('#panel')).callMethod('togglePanel');
+//  }
   
 }
