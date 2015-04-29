@@ -1,18 +1,3 @@
-core-toolbar {
-  background-color: #747E88;
-  color: #162531;
-  font-size: x-large;
-}
-
-core-item {
-  color: #A79780;
-  padding-right: 50px;
-}
-
-core-item.core-selected {
-  color: #D2C4B0;
-}
-
 
 html, body {
     width: 100%;
@@ -24,10 +9,6 @@ html, body {
     color: #D2C4B0;
 }
 
-h2 {
-  margin-left: 20px;
-}
-
 #splash {
   width: 100%;
   height: 100%;
@@ -35,15 +16,4 @@ h2 {
   text-align: center;
 }
 
-core-drawer-panel:not([narrow]) #navicon {
-  display: none;
-}
-
-[drawer] {
-  background-color: #3D4852;
-}
-
-core-pages {
-  margin-top: 30px;
-}
 //http://paletton.com/#uid=23z0u0k90f+55qj7mkVbt9ViX9-

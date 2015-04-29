@@ -1,0 +1,90 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/core-toolbar/core-toolbar.html">
+<link rel="import" href="../../bower_components/core-icon-button/core-icon-button.html">
+<link rel="import" href="../../bower_components/core-icons/social-icons.html">
+<link rel="import" href="../../bower_components/core-drawer-panel/core-drawer-panel.html">
+<link rel="import" href="../../bower_components/core-menu/core-menu.html">
+<link rel="import" href="../../bower_components/core-item/core-item.html">
+<link rel="import" href="../../bower_components/core-header-panel/core-header-panel.html">
+<link rel="import" href="../../bower_components/core-pages/core-pages.html">
+<link rel="import" href="../../components/pablosaraiva-book/pablosaraiva-booklist.html">
+    
+<polymer-element name="pablosaraiva-app">
+
+  <template>
+    <style>
+    
+      core-toolbar {
+        background-color: #747E88;
+        color: #162531;
+        font-size: x-large;
+      }
+      
+      core-item {
+        color: #A79780;
+        padding-right: 50px;
+      }
+      
+      core-item.core-selected {
+        color: #D2C4B0;
+      }
+      
+      h2 {
+        margin-left: 20px;
+      }
+      
+      core-drawer-panel:not([narrow]) #navicon {
+        display: none;
+      }
+      
+      [drawer] {
+        background-color: #3D4852;
+      }
+      
+      core-pages {
+        margin-top: 30px;
+      }
+    
+    </style>
+    
+    <div>
+      <core-drawer-panel id="panel">
+        <core-header-panel drawer>
+          <core-toolbar>Menu</core-toolbar>
+          <core-menu selected="{{page}}" valueattr="menuitem">
+            <core-item label="Blog" menuitem="blog"></core-item>
+            <core-item label="Projetos" menuitem="projetos"></core-item>
+            <core-item label="Leitura" menuitem="leitura"></core-item>
+            <core-item label="Sobre" menuitem="sobre"></core-item>
+          </core-menu>
+        </core-header-panel>
+        <core-header-panel main>
+          <core-toolbar class="headerlike">
+            <core-icon-button id="navicon" icon="menu"></core-icon-button>
+            <div>pablosaraiva.com</div>
+          </core-toolbar>
+          <core-pages selected="{{page}}" valueattr="menuitem">
+            <section menuitem="blog">
+              <div>Blog</div>
+            </section>
+            <section menuitem="projetos">
+              <div>Projetos</div>
+            </section>
+            <section menuitem="leitura">
+              <pablosaraiva-booklist></pablosaraiva-booklist>
+            </section>
+            <section menuitem="sobre">
+              <div>Sobre</div>
+            </section>
+          </core-pages>
+        </core-header-panel>        
+      </core-drawer-panel>
+    
+    </div>
+    
+  </template>
+  
+  <script type="application/dart" src="pablosaraiva-app.dart"></script>
+</polymer-element>
+  
+  
