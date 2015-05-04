@@ -1,22 +1,21 @@
-<link rel="import" href="../../bower_components/polymer/polymer.html">
-<link rel="import" href="./pablosaraiva-book.html">
+<link rel="import" href="../../packages/polymer/polymer.html">
+<link rel="import" href="pablosaraiva-book.html">
 <link rel="import" href="../pablosaraiva-bookservice/pablosaraiva-bookservice.html">
 
-<polymer-element name="pablosaraiva-booklist" noscript>
+<polymer-element name="pablosaraiva-booklist">
 
   <template>
     <style>
     </style>
-    <pablosaraiva-bookservice id="service" books="{{books}}"></pablosaraiva-bookservice>  
 
     <template repeat="{{book in books}}">
-    
       <style>
       </style>
-      <pablosaraiva-book titulo="{{book.titulo}}" fim="{{book.fim}}" autor="{{book.autor}}" capa="{{book.capa}}"></pablosaraiva-book>
+      <pablosaraiva-book titulo="{{book['titulo']}}" fim="{{book['fim']}}" autor="{{book['autor']}}" capa="{{book['capa']}}"></pablosaraiva-book>
     </template>
   </template>
-
+  
+  <script type="application/dart" src="pablosaraiva-booklist.dart"></script>
     
 </polymer-element>
   
