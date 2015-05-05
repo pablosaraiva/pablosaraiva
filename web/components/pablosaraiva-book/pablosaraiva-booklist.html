@@ -7,13 +7,13 @@
   <template>
     <style>
     </style>
-
-    <template repeat="{{book in books}}">
-      <style>
-      </style>
-      <pablosaraiva-book titulo="{{book['titulo']}}" fim="{{book['fim']}}" autor="{{book['autor']}}" capa="{{book['capa']}}"></pablosaraiva-book>
+   
+    <template repeat="{{book in books}}" >
+        <style>
+        </style>
+        <pablosaraiva-book titulo="{{book['titulo']}}" fim="{{book['fim']}}" autor="{{book['autor']}}" capa="{{book['capa']}}"></pablosaraiva-book>
+      </template>
     </template>
-  </template>
   
   <script type="application/dart" src="pablosaraiva-booklist.dart"></script>
     
