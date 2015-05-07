@@ -13,7 +13,6 @@
 
   <template>
     <style>
-    
       core-toolbar {
         background-color: #747E88;
         color: #162531;
@@ -44,44 +43,50 @@
       core-pages {
         margin-top: 30px;
       }
-    
+      
+      #codementor {
+        padding: 10pt;
+        position: fixed;
+        bottom: 0px;
+      }
+      
     </style>
-    
-    <div>
-      <core-drawer-panel id="panel">
-        <core-header-panel drawer>
-          <core-toolbar>Menu</core-toolbar>
-          <core-menu selected="{{page}}" valueattr="menuitem">
-            <core-item label="Blog" menuitem="blog"></core-item>
-            <core-item label="Projetos" menuitem="projetos"></core-item>
-            <core-item label="Leitura" menuitem="leitura"></core-item>
-            <core-item label="Sobre" menuitem="sobre"></core-item>
-          </core-menu>
-        </core-header-panel>
-        <core-header-panel main>
-          <core-toolbar class="headerlike">
-            <core-icon-button id="navicon" icon="menu"></core-icon-button>
-            <div>pablosaraiva.com</div>
-          </core-toolbar>
-          <core-pages selected="{{page}}" valueattr="menuitem">
-            <section menuitem="blog">
-              <div>Blog</div>
-            </section>
-            <section menuitem="projetos">
-              <div>Projetos</div>
-            </section>
-            <section menuitem="leitura">
-              <pablosaraiva-booklist></pablosaraiva-booklist>
-            </section>
-            <section menuitem="sobre">
-              <div>Sobre</div>
-            </section>
-          </core-pages>
-        </core-header-panel>        
-      </core-drawer-panel>
-    
-    </div>
-    
+        <core-drawer-panel id="panel">
+          <core-header-panel drawer>
+              <core-toolbar>Menu</core-toolbar>
+                <div id="menu">
+                  <core-menu selected="{{page}}" valueattr="menuitem">
+                    <core-item label="Blog" menuitem="blog"></core-item>
+                    <core-item label="Projetos" menuitem="projetos"></core-item>
+                    <core-item label="Leitura" menuitem="leitura"></core-item>
+                    <core-item label="Sobre" menuitem="sobre"></core-item>
+                  </core-menu>
+                </div>
+                <div id="codementor">
+                  <a href="https://www.codementor.io" target="_blank"><img width="108" src="//cdn.codementor.io/badges/powered_by_codementor_light@2x.png" alt="Codementor" /></a>              
+                </div>
+          </core-header-panel>
+          <core-header-panel main>
+            <core-toolbar class="headerlike">
+              <core-icon-button id="navicon" icon="menu"></core-icon-button>
+              <div>pablosaraiva.com</div>
+            </core-toolbar>
+            <core-pages selected="{{page}}" valueattr="menuitem">
+              <section menuitem="blog">
+                <div>Blog</div>
+              </section>
+              <section menuitem="projetos">
+                <div>Projetos</div>
+              </section>
+              <section menuitem="leitura">
+                <pablosaraiva-booklist></pablosaraiva-booklist>
+              </section>
+              <section menuitem="sobre">
+                <div>Sobre</div>
+              </section>
+            </core-pages>
+          </core-header-panel>        
+        </core-drawer-panel>
   </template>
   
   <script type="application/dart" src="pablosaraiva-app.dart"></script>
