@@ -1,11 +1,9 @@
 import 'package:polymer/polymer.dart';
-import 'dart:html';
-import 'dart:js';
 
 @CustomTag('pablosaraiva-app')
 class PablosaraivaApp extends PolymerElement {
   @observable
-  String page = "leitura";
+  String page = "blog";
   
   PablosaraivaApp.created() : super.created();
 

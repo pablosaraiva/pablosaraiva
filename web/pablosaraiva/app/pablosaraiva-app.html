@@ -7,7 +7,9 @@
 <link rel="import" href="../../packages/core_elements/core_item.html">
 <link rel="import" href="../../packages/core_elements/core_header_panel.html">
 <link rel="import" href="../../packages/core_elements/core_pages.html">
-<link rel="import" href="../../components/pablosaraiva-book/pablosaraiva-booklist.html">
+<link rel="import" href="../../pablosaraiva/book/pablosaraiva-booklist.html">
+<link rel="import" href="../../pablosaraiva/blog/pablosaraiva-blog.html">
+<link rel="import" href="../../pablosaraiva/sobre/pablosaraiva-sobre.html">
     
 <polymer-element name="pablosaraiva-app">
 
@@ -53,11 +55,10 @@
     </style>
         <core-drawer-panel id="panel">
           <core-header-panel drawer>
-              <core-toolbar>Menu</core-toolbar>
+              <core-toolbar></core-toolbar>
                 <div id="menu">
                   <core-menu selected="{{page}}" valueattr="menuitem">
                     <core-item label="Blog" menuitem="blog"></core-item>
-                    <core-item label="Projetos" menuitem="projetos"></core-item>
                     <core-item label="Leitura" menuitem="leitura"></core-item>
                     <core-item label="Sobre" menuitem="sobre"></core-item>
                   </core-menu>
@@ -73,16 +74,13 @@
             </core-toolbar>
             <core-pages selected="{{page}}" valueattr="menuitem">
               <section menuitem="blog">
-                <div>Blog</div>
-              </section>
-              <section menuitem="projetos">
-                <div>Projetos</div>
+                <pablosaraiva-blog></pablosaraiva-blog>
               </section>
               <section menuitem="leitura">
                 <pablosaraiva-booklist></pablosaraiva-booklist>
               </section>
               <section menuitem="sobre">
-                <div>Sobre</div>
+                <pablosaraiva-sobre></pablosaraiva-sobre>
               </section>
             </core-pages>
           </core-header-panel>        

@@ -4,9 +4,10 @@ description: pablosaraiva.com
 environment:
   sdk: 1.10.0
 dependencies:
-  browser: '>=0.10.0 <0.11.0'
-  polymer: '>=0.16.1 <0.17.0' 
-  core_elements: '>=0.7.1 <0.8.0'
+  browser: ">=0.10.0 <0.11.0"
+  polymer: ">=0.16.1 <0.17.0"
+  core_elements: ">=0.7.1 <0.8.0"
+  markdown: ">=0.7.1+2 <0.8.0"
 transformers:
 - polymer:
     entry_points: web/index.html
