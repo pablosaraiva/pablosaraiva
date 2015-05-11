@@ -1,4 +1,5 @@
 import 'package:polymer/polymer.dart';
+import 'package:core_elements/core_drawer_panel.dart';
 
 @CustomTag('pablosaraiva-app')
 class PablosaraivaApp extends PolymerElement {
@@ -10,12 +11,7 @@ class PablosaraivaApp extends PolymerElement {
   @override
   void ready() {
     super.ready();
-//    shadowRoot.querySelector('#panel').onClick.listen((e) => clicaMenu()); 
+    CoreDrawerPanel panel = shadowRoot.querySelector('#panel');
+    panel.onClick.listen((e) => panel.togglePanel());   
   }
-  
-//  void clicaMenu() {
-//    _js(x) => new JsObject.fromBrowserObject(x);
-//    _js(querySelector('#panel')).callMethod('togglePanel');
-//  }
-  
 }

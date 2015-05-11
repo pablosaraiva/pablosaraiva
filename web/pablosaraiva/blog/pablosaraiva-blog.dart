@@ -16,9 +16,6 @@ So I decided to do both together. As I am bulding my webpage using Poylmer and D
 This is a first blog post and a **markdown** test.
 """;
     
-    print(post);
-    print(markdownToHtml(post));
-
     shadowRoot.querySelector("#post").innerHtml = markdownToHtml(post);
   }
   
