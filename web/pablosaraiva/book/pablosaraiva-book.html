@@ -7,12 +7,14 @@
       :host #content {
         background-color: #55616C;
         color: #D2C4B0;
-        width: 800px;
         padding: 20px;
         margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
         border-style: dashed;
         border-width: 2px;
         border-color: #222B33;
+        min-width: 200px;
       }
       
       img {
@@ -20,15 +22,20 @@
         height: 225px;
       }
       
-      #right {
+      #bookData {
         margin-left: 20px;
+        z-index: 0;
+      }
+      
+      #bookCover {
+        z-index: 1;
       }
     </style>
     <div id="content" layout horizontal>
-      <div id="left">
+      <div id="bookCover">
         <img alt="Capa do Livro {{titulo}}" _src="../../img/books/{{capa}}">
       </div>
-      <div id="right" layout vertical>
+      <div id="bookData" layout vertical>
        <h3>{{titulo}}</h3>
        <span>Autor: {{autor}}</span>
        <span>Finalizado em: {{fim}}</span>

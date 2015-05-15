@@ -4,10 +4,9 @@ import 'package:markdown/markdown.dart';
 @CustomTag('pablosaraiva-blog')
 class PablosaraivaBlog extends PolymerElement {
   PablosaraivaBlog.created() : super.created();
-    
+  
   @override
-  void attached() {
-    super.attached();
+  void ready() {
     String post = """
 I wanted to have a personal web page AND I wanted to learn Polymer + Dart.
 
@@ -17,10 +16,6 @@ This is a first blog post and a **markdown** test.
 """;
     
     shadowRoot.querySelector("#post").innerHtml = markdownToHtml(post);
-  }
-  
-  @override
-  void detached() {
-    super.detached();
+    
   }
 }
