@@ -12,6 +12,7 @@ class PablosaraivaApp extends PolymerElement {
   void ready() {
     super.ready();
     CoreDrawerPanel panel = shadowRoot.querySelector('#panel');
+    panel.responsiveWidth = "800pt";
     panel.onClick.listen((e) => panel.togglePanel());   
   }
 }
