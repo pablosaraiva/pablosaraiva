@@ -1,6 +1,7 @@
 import 'package:polymer/polymer.dart';
 import 'package:core_elements/core_drawer_panel.dart';
 
+
 @CustomTag('pablosaraiva-app')
 class PablosaraivaApp extends PolymerElement {
   @observable
@@ -13,6 +14,7 @@ class PablosaraivaApp extends PolymerElement {
     super.ready();
     CoreDrawerPanel panel = shadowRoot.querySelector('#panel');
     panel.responsiveWidth = "800pt";
-    panel.onClick.listen((e) => panel.togglePanel());   
+    panel.onClick.listen((e) => panel.togglePanel());
   }
+
 }

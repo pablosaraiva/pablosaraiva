@@ -8,6 +8,7 @@ dependencies:
   polymer: ">=0.16.1 <0.17.0"
   core_elements: ">=0.7.1 <0.8.0"
   markdown: ">=0.7.1+2 <0.8.0"
+  route_hierarchical: ">=0.6.1 <0.7.0"
 transformers:
 - polymer:
     entry_points: web/index.html
