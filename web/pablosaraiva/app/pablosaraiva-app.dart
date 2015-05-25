@@ -18,7 +18,6 @@ class PablosaraivaApp extends PolymerElement {
     panel.responsiveWidth = "800pt";
     panel.onClick.listen((e) => panel.togglePanel());
     
-    
     router.root
         ..addRoute(name: 'blog', defaultRoute: true, path: 'blog/:postId', enter: showBlog)
         ..addRoute(name: 'leitura', path: 'leitura', enter: showLeitura)
@@ -28,21 +27,19 @@ class PablosaraivaApp extends PolymerElement {
   }
   
   void showBlog(RouteEvent e) {
-    print("showBlog");
+    page = "blog";
     if (e.parameters.isNotEmpty) {
-      var postId = e.parameters['postId'];
-      print("Post id: " + postId);
+//      var postId = e.parameters['postId'];
     } else {
-      print("Last post");
     }
   }
 
   void showLeitura(RouteEvent e) {
-    print("showLeitura");
+    page = "leitura";
   }
 
   void showSobre(RouteEvent e) {
-    print("showSobre");
+    page = "sobre";
   }
 
 }
