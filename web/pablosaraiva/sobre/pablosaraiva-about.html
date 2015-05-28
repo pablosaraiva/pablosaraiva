@@ -1,6 +1,6 @@
 <link rel="import" href="../../packages/polymer/polymer.html">
 
-<polymer-element name="pablosaraiva-sobre" >
+<polymer-element name="pablosaraiva-about" >
 
   <template>
     <style>
@@ -8,14 +8,42 @@
         margin-left: 15pt;
         margin-right: 15pt;
       }
+
+      a:link {
+        color: #D2C4B0;
+      }
+      
+      a:visited {
+        color: #D2C4B0;
+      }
+      
+      a:hover {
+        color: #D2C4B0;
+        text-decoration: none;
+      } 
+            
     </style>
     
     <div id="content">
       <h1>Pablo Saraiva</h1>
+      
+      <h2>Who am I?</h2>
           
-      <h4>
-        I'm a computer programmer from Brazil.
-      </h4>
+      <div>
+        I'm a BSc Computer Science graduate from Brazil. I'm living in Brasília and working at a bank.
+        
+        In my free time I like to play guitar, play video-games and <a href="/#readinglist">read books</a>.
+      </div>
+      
+      <h2>Why this page?</h2>
+      
+      <div>
+        I am tired of developing pet projects and throwing them away. The page is a pet project in itself. I'm building it with Dart + Polymer (which I am learning in the process).
+        
+        I will add other projects here in the future.        
+      </div>
+      
+      <h2>Where can you find me?</h2>
       
       <div>
         Stackoverflow <br />
@@ -40,9 +68,11 @@
       
     </div>
     
+    <h4>Disclaimer: Everything expressed at this site represents my personal opinions only. They do not represent my current, previous or future employer’s view in any way.</h4>
+    
     
   </template>
-  <script type="application/dart" src="pablosaraiva-sobre.dart"></script>
+  <script type="application/dart" src="pablosaraiva-about.dart"></script>
 
 </polymer-element>
   

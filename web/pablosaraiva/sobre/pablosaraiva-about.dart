@@ -1,6 +1,6 @@
 import 'package:polymer/polymer.dart';
 
-@CustomTag('pablosaraiva-sobre')
+@CustomTag('pablosaraiva-about')
 class PablosaraivaSobre extends PolymerElement {
   PablosaraivaSobre.created() : super.created();
     

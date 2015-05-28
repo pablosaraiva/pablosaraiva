@@ -25,8 +25,8 @@ class PablosaraivaApp extends PolymerElement {
     
     router.root
         ..addRoute(name: 'blog', defaultRoute: true, path: 'blog/:postId', enter: showBlog)
-        ..addRoute(name: 'leitura', path: 'leitura', enter: showLeitura)
-        ..addRoute(name: 'sobre', path: 'sobre', enter: showSobre);
+        ..addRoute(name: 'readinglist', path: 'readinglist', enter: showLeitura)
+        ..addRoute(name: 'about', path: 'about', enter: showSobre);
     router.listen();
         
   }
@@ -42,12 +42,12 @@ class PablosaraivaApp extends PolymerElement {
 
   void showLeitura(RouteEvent e) {
     scrollToPageTop();
-    page = "leitura";
+    page = "readinglist";
   }
 
   void showSobre(RouteEvent e) {
     scrollToPageTop();
-    page = "sobre";
+    page = "about";
   }
   
   void scrollToPageTop() {
